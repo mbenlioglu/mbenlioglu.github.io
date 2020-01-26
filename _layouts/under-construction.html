@@ -23,10 +23,10 @@
         left: 16px;
         color: white;
         text-shadow:
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000; 
+        -1px -1px 2px #000,
+        1px -1px 2px #000,
+        -1px 1px 2px #000,
+        1px 1px 2px #000;
     }
 
     .bottomleft {
@@ -42,6 +42,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
+        text-shadow: 1px 1px 3px black;
     }
 
     hr {
@@ -62,7 +63,7 @@
         <p id="demo" style="font-size:30px"></p>
     </div>
     <div class="bottomleft">
-        <a href="mailto:{{ site.email }}" style="color: black;">
+        <a href="mailto:{{ site.email }}" style="color: black; text-shadow: 0 0 4px red">
             <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
         </a>
     </div>
